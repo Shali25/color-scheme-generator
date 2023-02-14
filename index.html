@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="index.css">
+        </head>
+        <nav>
+            <input id="color-picker" type="color"/>
+            <label for="drop-menu"></label>
+            <select name="drop-menu" id="drop-menu">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="get-btn" type="submit">Get Color Scheme</button>
+        </nav>
+   
+        <div id="swatches">
+            <!-- rendered swatches here -->
+        </div>
+        <div id="hexes">
+            <!-- rendered hex values here -->
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
